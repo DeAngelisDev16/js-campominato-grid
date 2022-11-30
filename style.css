@@ -18,3 +18,9 @@ body{
 
 }
 
+.square{
+    width: calc(100% / 12);
+    height: calc(100% / 12);
+    border: 2px solid black;
+}
+
