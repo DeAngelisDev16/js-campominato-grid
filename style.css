@@ -10,23 +10,29 @@ body{
 
 header{
     height: 10vh;
-    background-color: orange;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
+}
+    
+
+main{
+    height: 80vh;
+    background-color: aquamarine;
 }
 
 
 #wrapper{
     width: 500px;
     height: 500px;
-    border: 1px solid black;
-    margin: 50px auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     
 
 }
+    
 
 
 .square{
@@ -37,16 +43,19 @@ header{
     line-height: 3;
 }
 
-/* addEventListener */
 
-.d-none{
-    display: none;
-}
+
+
 
 .click{
     background-color: aqua;
 }
 
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
 
 
 
