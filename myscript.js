@@ -1,6 +1,7 @@
 
 
 const mainContainer = document.getElementById('wrapper');
+const playButton = document.getElementById('play');
 
 
 
@@ -9,11 +10,12 @@ const mainContainer = document.getElementById('wrapper');
 for (let i = 1; i <= 100; i++){
     console.log(i);
     const newDiv = document.createElement('div');
-    mainContainer.append(newDiv);
     newDiv.classList.add('square');
+    mainContainer.append(newDiv);
+    newDiv.append(i);
+}
     
     
 
-}
 
     
