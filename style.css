@@ -19,8 +19,8 @@ body{
 }
 
 .square{
-    width: calc(100% / 12);
-    height: calc(100% / 12);
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     border: 2px solid black;
 }
 
