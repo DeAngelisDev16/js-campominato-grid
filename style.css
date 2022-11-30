@@ -24,8 +24,10 @@ header{
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
+    
 
 }
+
 
 .square{
     width: calc(100% / 10);
@@ -33,6 +35,12 @@ header{
     border: 2px solid black;
     text-align: center;
     line-height: 3;
+}
+
+/* addEventListener */
+
+.d-none{
+    display: none;
 }
 
 .click{
